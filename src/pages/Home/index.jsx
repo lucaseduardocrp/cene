@@ -1,14 +1,14 @@
-import styled from 'styled-components';
+import { Main, Slide } from './styles';
 
 export default function Home(){
-  const H1 = styled.h1`
-    font-size: 6rem;
-    color: black;
-  `;
-
   return(
-    <>
-      <H1>I love you Jesus</H1>
-    </>
+    <Main>
+      <section>
+        <Slide />
+      </section>
+      <section>
+        
+      </section>
+    </Main>
   )
 }

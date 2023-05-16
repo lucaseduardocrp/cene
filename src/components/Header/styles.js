@@ -1,9 +1,8 @@
 import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
+position: fixed;
 width: 100%;
-height: 7vh;
-background: var(--black);
 
 nav, .navlinks, .socialMedia{
   display: flex;
@@ -13,8 +12,9 @@ nav, .navlinks, .socialMedia{
 }
 
 nav{
-  padding: 0.8rem 3rem;
-  background: var(--black);
+  padding: 0.6rem 5rem;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(30px);
 
   .burgerMenu{
     display: none;
@@ -38,7 +38,7 @@ nav{
     
     .Open, .Close{
       width: 100%;
-      height: 50%;
+      height: 40vh;
       padding: 3rem;
       flex-direction: column;
       position: absolute;
