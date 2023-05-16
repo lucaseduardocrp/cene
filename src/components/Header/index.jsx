@@ -17,9 +17,9 @@ export default function Header(){
           <li>
             <Link to="/"><img src="../../public/Logo.svg" alt="CENE" /></Link>
           </li>
-          <li><a href='#' target='_blank'><InstagramIcon /> </a></li>
-          <li><a href='#' target='_blank'><FacebookIcon /> </a></li>
-          <li><a href='#' target='_blank'><SpotifyIcon /> </a></li>
+          <li><a href='https://www.instagram.com/ministeriocene/' target='_blank' rel='noreferrer'><InstagramIcon /> </a></li>
+          <li><a href='https://www.facebook.com/ministeriocenesg/' target='_blank' rel='noreferrer'><FacebookIcon /> </a></li>
+          <li><a href='https://open.spotify.com/playlist/1OSYvI34v3kQZSQTWQc5xa' target='_blank' rel='noreferrer'><SpotifyIcon /> </a></li>
         </ul>
 
         <div className='burgerMenu' onClick={ToggleMode}>
