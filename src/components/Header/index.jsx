@@ -27,10 +27,10 @@ export default function Header(){
         </div>
 
         <ul className={active ? "navlinks Open" : "navlinks Close"}>
-          <li><Link to="/conteudo">Conteúdo</Link></li>
-          <li><Link to="/participe">Participe</Link></li>
-          <li><Link to="/doe">Doe</Link></li>
-          <li><Link to="/contato">Contato</Link></li>
+          <li><Link to="/content">Conteúdo</Link></li>
+          <li><Link to="/participate">Participe</Link></li>
+          <li><Link to="/donate">Doe</Link></li>
+          <li><Link to="/contact">Contato</Link></li>
           <li><button className='btn'><FaUser />Login</button></li>
         </ul>
       </nav>
