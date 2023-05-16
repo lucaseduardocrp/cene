@@ -11,9 +11,7 @@ import Contact from './pages/Contact/index';
 export default function App() {
  return (
     <>
-      <Header />
-      
-      <main>
+      <Header />  
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/content' element={<Content/>}/>
@@ -21,8 +19,7 @@ export default function App() {
           <Route path='/donate' element={<Donate/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
-      </main>
-
+        
       <GlobalStyles />
     </>
   )
