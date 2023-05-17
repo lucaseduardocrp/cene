@@ -6,6 +6,7 @@ import Content from './pages/Content/index';
 import Participate from './pages/Participate/index';
 import Donate from './pages/Donate/index';
 import Contact from './pages/Contact/index';
+import { Footer } from './components/Footer';
 
 
 export default function App() {
@@ -19,7 +20,8 @@ export default function App() {
           <Route path='/donate' element={<Donate/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
-        
+      <Footer />
+      
       <GlobalStyles />
     </>
   )

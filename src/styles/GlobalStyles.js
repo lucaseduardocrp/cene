@@ -21,6 +21,12 @@ export default createGlobalStyle`
     border: 0;
     background: none;
   }
+
+  section{
+    width: 100%;
+    height: auto;
+    padding: 7rem;
+  }
   
   :root{
     --primary: #0BB1BC;
@@ -60,31 +66,51 @@ export default createGlobalStyle`
 
   /*------Utility Classes------*/
 
+  .link{
+    display: flex;
+    align-items: center;
+    font-size: var(--sm-font);
+    font-weight: 500;
+    color: var(--grey);
+    text-decoration: underline;
+  }
+
   .btn{
     display: flex;
+    justify-content: center;
     gap: 0.6rem;
-    padding: 0.8rem 2.4rem;
+    padding: 0.6rem 2rem;
     background: var(--primary);
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     border-radius: 1.4rem;
     font-size: var(--sm-font);
     font-weight: 700;
     color: var(--black);
     cursor: pointer;
-    transition: all .30s ease;
+    transition: all .20s ease;
 
     &:hover{
-      background: transparent;
+      background: var(--black);
       color: var(--primary);
     }
   }
 
   .btn2{
-    padding: 0.8rem 3rem;
+    width: 14rem;
+    padding: 0.8rem;
     color: var(--white);
+  }
 
-    &:hover{
-      background: var(--black);
+  @media (max-width: 768px){
+    :root{
+      --h2-font: 4rem;
+      --h3-font: 3rem;
+      --h4-font: 2.4rem;
+      --p-font: 1.6rem;
+      --sm-font: 1.4rem;
+    }
+    section{
+      padding: 2rem 1rem;
     }
   }
 `; 
