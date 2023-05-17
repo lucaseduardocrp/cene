@@ -14,28 +14,28 @@ export default function Header(){
 
   return(
     <HeaderContainer>
-      <nav>
-        <ul className='socialMedia'>
-          <li>
-            <Link to="/"><img src="../../public/Logo.svg" alt="CENE" /></Link>
-          </li>
-          <li><a href='https://www.instagram.com/ministeriocene/' target='_blank' rel='noreferrer'><InstagramIcon /> </a></li>
-          <li><a href='https://www.facebook.com/ministeriocenesg/' target='_blank' rel='noreferrer'><FacebookIcon /> </a></li>
-          <li><a href='https://open.spotify.com/playlist/1OSYvI34v3kQZSQTWQc5xa' target='_blank' rel='noreferrer'><SpotifyIcon /> </a></li>
-        </ul>
+        <nav>
+          <ul className='socialMedia'>
+            <li>
+              <Link to="/"><img src="../../public/Logo.svg" alt="CENE" /></Link>
+            </li>
+            <li><a href='https://www.instagram.com/ministeriocene/' target='_blank' rel='noreferrer'><InstagramIcon /> </a></li>
+            <li><a href='https://www.facebook.com/ministeriocenesg/' target='_blank' rel='noreferrer'><FacebookIcon /> </a></li>
+            <li><a href='https://open.spotify.com/playlist/1OSYvI34v3kQZSQTWQc5xa' target='_blank' rel='noreferrer'><SpotifyIcon /> </a></li>
+          </ul>
 
-        <div className='burgerMenu' onClick={ToggleMode}>
-          <MobileMenu />
-        </div>
-        
-        <ul className={active ? "navlinks Open" : "navlinks Close"}>
-          <li><Link to="/content">Conteúdo</Link></li>
-          <li><Link to="/participate">Participe</Link></li>
-          <li><Link to="/donate">Doe</Link></li>
-          <li><Link to="/contact">Contato</Link></li>
-          <li><button className='btn'><FaUser />Login</button></li>
-        </ul>
-      </nav>
+          <div className='burgerMenu' onClick={ToggleMode}>
+            <MobileMenu />
+          </div>
+          
+          <ul className={active ? "navlinks Open" : "navlinks Close"}>
+            <li><Link to="/content">Conteúdo</Link></li>
+            <li><Link to="/participate">Participe</Link></li>
+            <li><Link to="/donate">Doe</Link></li>
+            <li><Link to="/contact">Contato</Link></li>
+            <li><button className='btn'><FaUser />Login</button></li>
+          </ul>
+        </nav>
     </HeaderContainer>
   )
 }
