@@ -42,7 +42,7 @@ export const HeaderContainer = styled.header`
         padding: 3rem;
         flex-direction: column;
         position: absolute;
-        top: 7.4rem;
+        top: 7.5rem;
         left: 0;
         background: var(--black);
       }
