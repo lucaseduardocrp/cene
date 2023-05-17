@@ -90,7 +90,7 @@ const parallax = css`
 `;
 
 export const ParallaxImage = styled.div`
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/public/LeituraIMG.jpg);
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../../public/LeituraIMG.jpg);
   ${parallax}
 `;
 

@@ -2,7 +2,6 @@ import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
   height: 7vh;
-  background: var(--black);
 
   nav, .navlinks, .socialMedia{
     display: flex;
@@ -15,8 +14,7 @@ export const HeaderContainer = styled.header`
     width: 100%;
     position: fixed;
     padding: 0.6rem 5rem;
-    background: rgba(0,0,0,0.4);
-    backdrop-filter: blur(30px);
+    background: var(--black);
   
     .burgerMenu{
       display: none;
@@ -44,7 +42,7 @@ export const HeaderContainer = styled.header`
         padding: 3rem;
         flex-direction: column;
         position: absolute;
-        top: 8rem;
+        top: 7.4rem;
         left: 0;
         background: var(--black);
       }
