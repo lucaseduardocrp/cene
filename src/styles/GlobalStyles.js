@@ -17,6 +17,10 @@ export default createGlobalStyle`
     scroll-behavior: smooth;
   }
 
+  body{
+    padding-top: 7rem;
+  }
+
   *, input{
     border: 0;
     background: none;

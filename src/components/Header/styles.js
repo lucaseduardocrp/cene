@@ -1,7 +1,10 @@
 import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  height: 7vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: var(--black);
 
   nav, .navlinks, .socialMedia{
     display: flex;
@@ -11,10 +14,7 @@ export const HeaderContainer = styled.header`
   }
   
   nav{
-    width: 100%;
-    position: fixed;
-    padding: 0.6rem 5rem;
-    background: var(--black);
+    padding: 0.5rem 5rem;
   
     .burgerMenu{
       display: none;
