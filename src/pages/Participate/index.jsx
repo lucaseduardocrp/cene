@@ -1,14 +1,9 @@
-import styled from 'styled-components';
+import { Container } from './styles';
 
 export default function Participate(){
-  const H1 = styled.h1`
-    font-size: 6rem;
-    color: black;
-  `;
-
   return(
-    <>
-      <H1>Participate</H1>
-    </>
+    <Container>
+      <h1>Participate</h1>
+    </Container>
   )
 }
