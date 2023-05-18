@@ -27,6 +27,11 @@ export default createGlobalStyle`
     height: auto;
     padding: 7rem;
   }
+
+  span{
+    color: var(--primary);
+    font-weight: 700;
+  }
   
   :root{
     --primary: #0BB1BC;
