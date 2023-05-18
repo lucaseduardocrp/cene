@@ -10,7 +10,7 @@ const flex = css`
 export const Slide = styled.div`
   height: 60vh;
   background-color: var(--black);
-  background-image: url(../../../public/HomeSlide.png);
+  background-image: url(/HomeSlide.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -90,12 +90,12 @@ const parallax = css`
 `;
 
 export const ParallaxImage = styled.div`
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../../public/LeituraIMG.jpg);
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/LeituraIMG.jpg);
   ${parallax}
 `;
 
 export const ParallaxImage2 = styled.div`
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../../../public/ContribuiçaoBG.jpg);
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/ContribuiçaoBG.jpg);
   ${parallax}
 
   h2{

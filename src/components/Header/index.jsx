@@ -30,7 +30,7 @@ export default function Header(){
         <nav>
           <ul className='socialMedia'>
             <li>
-              <Link to="/"><img src="../../public/Logo.svg" alt="CENE" /></Link>
+              <Link to="/"><img src="/Logo.svg" alt="CENE" /></Link>
             </li>
             <li><a href='https://www.instagram.com/ministeriocene/' target='_blank' rel='noreferrer'><InstagramIcon /> </a></li>
             <li><a href='https://www.facebook.com/ministeriocenesg/' target='_blank' rel='noreferrer'><FacebookIcon /> </a></li>

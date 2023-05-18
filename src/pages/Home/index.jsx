@@ -11,7 +11,7 @@ export default function Home(){
         <p>Nossa missão é estabelecer a cultura dos céus por onde formos. Temos como propósito amar a Deus acima de todas as coisas e ao próximo como a nós mesmos. <br /> 
         Cremos na mudança social e cultural, quando um só povo em unidade se move em busca de manifestar e revelar a Glória de Deus Pai em todas as esferas da sociedade, <br /> 
         trazendo vida ao que estava morto. Afinal, estamos aqui para servir, amar e viver a verdade de Cristo.</p>
-        <img src="../../../public/SobreCeneBG.jpg" alt="" />
+        <img src="/SobreCeneBG.jpg" alt="" />
       </section>
       
       <Container className='newslatter' id='newslatter'>
@@ -24,9 +24,9 @@ export default function Home(){
         <h2>Eventos</h2>
         
         <div className="eventsGrid">
-          <EventBox  src="../../public/EventImage.png" name="Encontro Radical" />
-          <EventBox  src="../../public/EventImage.png" name="Encontro Radical" />
-          <EventBox  src="../../public/EventImage.png" name="Encontro Radical" />
+          <EventBox  src="/EventImage.png" name="Encontro Radical" />
+          <EventBox  src="/EventImage.png" name="Encontro Radical" />
+          <EventBox  src="/EventImage.png" name="Encontro Radical" />
         </div>
       
         <a href="" className='link'>Ver todos os eventos</a>
@@ -43,9 +43,9 @@ export default function Home(){
       <Container>
         <h2>Programação</h2>
         <div className='scheduleBox'>
-          <img src="../../../public/BannerCultoDomingo.jpg" alt="Culto de louvor e adoração aos domingos" />
-          <img src="../../../public/BannerCultoQuinta.jpg" alt="Culto da vitória as quintas-feiras" />
-          <img src="../../../public/BannerCultoDomingo.jpg" alt="Escola bíblica e dominical aos domingos de manhã" />
+          <img src="/BannerCultoDomingo.jpg" alt="Culto de louvor e adoração aos domingos" />
+          <img src="/BannerCultoQuinta.jpg" alt="Culto da vitória as quintas-feiras" />
+          <img src="/BannerCultoDomingo.jpg" alt="Escola bíblica e dominical aos domingos de manhã" />
         </div>
       </Container>
 

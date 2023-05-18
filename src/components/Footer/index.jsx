@@ -10,7 +10,7 @@ export function Footer() {
         <li><a href=""><PhoneIcon /> +55 (21) 94002-8922</a></li>
         <li><p>© 2023, Comunidade Evangélica Novo Encontro. Todos os direitos reservados.</p></li>
       </ul>
-      <img src="Logo.svg" />
+      <img src="/Logo.svg" />
     </Container>
   );
 }
