@@ -1,5 +1,6 @@
 import { Main, Slide, Container, ParallaxImage, ParallaxImage2, HeartIcon } from './styles';
 import EventBox from '../../components/EventBox/index';
+import { Link } from 'react-router-dom';
 
 export default function Home(){
   return(
@@ -29,14 +30,14 @@ export default function Home(){
           <EventBox  src="/EventImage.png" name="Encontro Radical" />
         </div>
       
-        <a href="" className='link'>Ver todos os eventos</a>
+        <Link to={"/participate"} className='link'>Ver todos os eventos</Link>
       </Container>
 
       <ParallaxImage>
         <Container>
           <h2>Plano de Leitura</h2>
           <p>Aprofunde no estudo bíblico da semana junto ao seu pequeno grupo e <br /> reveja os estudos anteriores.</p>
-          <a href="" className='btn btn2'>Acesse Agora</a>
+          <Link to={"/content"} className='btn btn2'>Acesse Agora</Link>
         </Container>
       </ParallaxImage>
 
@@ -55,7 +56,7 @@ export default function Home(){
             <h2>Contribuição</h2>
             <p>Ser generoso é colocar o amor em ação. &quot;Mais bem-aventurado é dar do que receber&quot; (At 20.35). <br />
             Conﬁra em quais bancos você pode depositar seus dízimos e suas ofertas.</p>
-            <a href="" className='btn btn2'>Contribua Aqui</a>
+            <Link to={"/donate"} className='btn btn2'>Contribua Aqui</Link>
         </Container>
       </ParallaxImage2>
     </Main>

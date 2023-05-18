@@ -5,9 +5,9 @@ export function Footer() {
   return (
     <Container>
       <ul>
-        <li><a href=""><LocationIcon /> Rua Frei Orlando 16 - Mutondo - SG</a></li>
-        <li><a href=""><ContactIcon />contato@gmail.com</a></li>
-        <li><a href=""><PhoneIcon /> +55 (21) 94002-8922</a></li>
+        <li><p><LocationIcon /> Rua Frei Orlando 16 - Mutondo - SG</p></li>
+        <li><p><ContactIcon />contato@gmail.com</p></li>
+        <li><p><PhoneIcon /> +55 (21) 94002-8922</p></li>
         <li><p>© 2023, Comunidade Evangélica Novo Encontro. Todos os direitos reservados.</p></li>
       </ul>
       <img src="/Logo.svg" />

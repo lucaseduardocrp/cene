@@ -11,13 +11,8 @@ export const Container = styled.div`
 
   ul{
     line-height: 3;
-
-    p{
-      font-size: var(--xsm-font);
-      color: var(--white);
-    }
     
-    a{
+    p{
       display: inline-flex;
       align-items: center;
       gap: 0.8rem;

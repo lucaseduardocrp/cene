@@ -7,7 +7,7 @@ export default function DonateGrid({src, text, payment, href, textLink}){
       <img src={src} alt="Forma de Contribuição" />
       <p>{text}</p>
       <p><span>{payment}</span></p>
-      <a href={href}> {textLink} </a>
+      <a href={href} target="_blank" rel="noreferrer"> {textLink} </a>
     </Container>
   )
 }
