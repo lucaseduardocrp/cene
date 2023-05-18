@@ -17,7 +17,7 @@ export default function Home(){
       
       <Container className='newslatter' id='newslatter'>
         <h4>Quer receber conteúdos exclusivos da igreja em primeira mão?</h4>
-        <p>Cadastre-se agora para ter acesso a notícias, eventos, pedidos de oração e muito mais <br /> para se conectar mais com a igreja.</p>
+        <p>Cadastre-se agora para ter acesso a notícias, eventos, pedidos de oração e muito mais <br /> para se conectar com a igreja.</p>
         <a className='btn btn2'>Cadastre-se</a>
       </Container>
 
