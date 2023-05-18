@@ -45,7 +45,6 @@ export default function Header(){
             <li><Link to="/content">Conteúdo</Link></li>
             <li><Link to="/participate">Participe</Link></li>
             <li><Link to="/donate">Doe</Link></li>
-            <li><Link to="/contact">Contato</Link></li>
             <li><button className='btn'><FaUser />Login</button></li>
           </ul>
         </nav>

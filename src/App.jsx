@@ -5,7 +5,6 @@ import Home from './pages/Home/index';
 import Content from './pages/Content/index';
 import Participate from './pages/Participate/index';
 import Donate from './pages/Donate/index';
-import Contact from './pages/Contact/index';
 import { Footer } from './components/Footer';
 
 
@@ -18,7 +17,6 @@ export default function App() {
           <Route path='/content' element={<Content/>}/>
           <Route path='/participate' element={<Participate/>}/>
           <Route path='/donate' element={<Donate/>}/>
-          <Route path='/contact' element={<Contact/>}/>
         </Routes>
       <Footer />
       
