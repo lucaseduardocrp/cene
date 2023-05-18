@@ -20,7 +20,7 @@ export const Container = styled.section`
   ${flex}
   flex-direction: column;
   gap: 3rem;
-  padding: 8rem 0;
+  padding: 8rem 2rem;
   text-align: center;
 `;
 
