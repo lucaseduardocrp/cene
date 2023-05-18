@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
   height: 7vh;
+  background: var(--black);
 
   nav, .navlinks, .socialMedia{
     display: flex;
