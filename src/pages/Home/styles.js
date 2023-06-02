@@ -38,7 +38,14 @@ export const EncontroRadical = styled.section`
       font-size: var(--h3-font);
       color: var(--white);
     }
+  }
 
+  @media (max-width: 450px){
+    gap: 0;
+
+    img{
+      width: 32rem;
+    }
   }
 `;
 
