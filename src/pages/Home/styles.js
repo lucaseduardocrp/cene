@@ -8,12 +8,38 @@ const flex = css`
 `;
 
 export const Slide = styled.div`
-  height: 60vh;
+  height: 75vh;
   background-color: var(--black);
   background-image: url(/HomeSlide.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+`;
+
+export const EncontroRadical = styled.section`
+  height: 80vh;
+  background: var(--black);
+  text-align: center;
+  ${flex}
+  gap: 10rem;
+  flex-wrap: wrap;
+
+  img{
+    width: 42rem;
+    object-fit: cover;
+  }
+
+  .radical-subscribe{
+    ${flex}
+    flex-direction: column;
+    gap: 3rem;
+
+    h3{
+      font-size: var(--h3-font);
+      color: var(--white);
+    }
+
+  }
 `;
 
 export const Container = styled.section`
@@ -32,6 +58,7 @@ export const Main = styled.main`
   }
 
   p{
+    padding: 2rem 0;
     line-height: 1.4;
     font-size: var(--p-font);
     color: var(--grey);
@@ -45,26 +72,14 @@ export const Main = styled.main`
       max-width: 100%;
     }
   }
-  
-  .newslatter{
-    background: var(--black);
 
-    h4{
-      font-size: var(--h4-font);
-      font-weight: 500;
-      color: var(--white);
-    }
-  }
-
-  .eventsGrid, .scheduleBox{
+  .scheduleBox{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 6rem;
-  }
-
-  .scheduleBox{
     margin-bottom: 4rem;
+    
     img{
       width: 30rem;
       border-radius: 2rem;

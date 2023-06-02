@@ -3,7 +3,6 @@ import GlobalStyles from './styles/GlobalStyles'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/index';
 import Content from './pages/Content/index';
-import Participate from './pages/Participate/index';
 import Donate from './pages/Donate/index';
 import { Footer } from './components/Footer';
 
@@ -15,7 +14,6 @@ export default function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/content' element={<Content/>}/>
-          <Route path='/participate' element={<Participate/>}/>
           <Route path='/donate' element={<Donate/>}/>
         </Routes>
       <Footer />

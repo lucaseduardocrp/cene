@@ -15,6 +15,10 @@ export const HeaderContainer = styled.header`
   
   nav{
     padding: 0.5rem 5rem;
+
+    .navlinks{
+      gap: 3rem;
+    }
   
     .burgerMenu{
       display: none;
@@ -22,7 +26,7 @@ export const HeaderContainer = styled.header`
     
     ul li a{
       color: var(--white);
-      font-size: var(--sm-font);
+      font-size: var(--p-font);
       font-weight: 600;
       transition: all .20s ease;
   

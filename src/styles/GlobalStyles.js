@@ -33,7 +33,7 @@ export default createGlobalStyle`
   }
 
   span{
-    color: var(--primary);
+    color: #F2D335;
     font-weight: 700;
   }
   
@@ -85,16 +85,16 @@ export default createGlobalStyle`
   }
 
   .btn{
+    width: 14rem;
+    padding: 0.8rem;
+    color: var(--white);
     display: flex;
     justify-content: center;
-    gap: 0.6rem;
-    padding: 0.6rem 2rem;
     background: var(--primary);
     border: 2px solid var(--primary);
     border-radius: 1.4rem;
     font-size: var(--sm-font);
     font-weight: 700;
-    color: var(--black);
     cursor: pointer;
     transition: all .20s ease;
 
@@ -105,9 +105,13 @@ export default createGlobalStyle`
   }
 
   .btn2{
-    width: 14rem;
-    padding: 0.8rem;
-    color: var(--white);
+    color: var(--black);
+    background-color: #F2D335;
+    border-color: #F2D335;
+    
+    &:hover{
+      color: #F2D335;
+    }
   }
 
   @media (max-width: 768px){

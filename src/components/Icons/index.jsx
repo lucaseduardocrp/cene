@@ -3,7 +3,7 @@ import styled, {css} from "styled-components";
 import { BsCalendar, BsFillTelephoneFill } from "react-icons/bs";
 import { HiLocationMarker, HiMail } from "react-icons/hi";
 import { FaInstagram, FaFacebookSquare, FaSpotify } from "react-icons/fa";
-import { TfiMenu } from 'react-icons/tfi';
+import { TfiMenu, TfiClose } from 'react-icons/tfi';
 
 const iconsCSS = css`
   width: 2rem;
@@ -47,9 +47,16 @@ export const SpotifyIcon = styled(FaSpotify)`
  ${socialIcons}
 `;
 
-export const MobileMenu = styled(TfiMenu)`
-  font-size: 3.6rem;
+const MobileIcons = css`
+  font-size: 4rem;
   color: var(--white);
+`;
+
+export const MobileMenu = styled(TfiMenu)`
+  ${MobileIcons}
+`;
+export const CloseMobileMenu = styled(TfiClose)`
+  ${MobileIcons}
 `;
 
 export function Icons() {

@@ -29,6 +29,11 @@ export const Container = styled.section`
     line-height: 1.6;
   }
 
+  p:nth-child(4){
+    color: var(--primary);
+    font-weight: 700;
+  }
+
   .donateGrid{
     margin-top: 2rem;
     ${flex}

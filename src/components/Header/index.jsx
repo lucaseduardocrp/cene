@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { HeaderContainer } from './styles';
-import { FaUser } from 'react-icons/fa';
-import { InstagramIcon, FacebookIcon, SpotifyIcon, MobileMenu } from '../Icons/index';
+import { InstagramIcon, FacebookIcon, SpotifyIcon, MobileMenu, CloseMobileMenu } from '../Icons/index';
 import { Link } from 'react-router-dom';
 
 export default function Header(){
@@ -30,7 +29,7 @@ export default function Header(){
         <nav>
           <ul className='socialMedia'>
             <li>
-              <Link to="/"><img src="/Logo.svg" alt="CENE" /></Link>
+              <a href="#home"><img src="/Logo.svg" alt="CENE" /></a>
             </li>
             <li><a href='https://www.instagram.com/ministeriocene/' target='_blank' rel='noreferrer'><InstagramIcon /> </a></li>
             <li><a href='https://www.facebook.com/ministeriocenesg/' target='_blank' rel='noreferrer'><FacebookIcon /> </a></li>
@@ -38,14 +37,13 @@ export default function Header(){
           </ul>
 
           <div className='burgerMenu' onClick={toggleMode}>
-            <MobileMenu />
+            {active ? <CloseMobileMenu /> : <MobileMenu />}
           </div>
           
           <ul className={active ? "navlinks Open" : "navlinks Close"}>
+            <li><Link to="/">Início</Link></li>
             <li><Link to="/content">Conteúdo</Link></li>
-            <li><Link to="/participate">Participe</Link></li>
             <li><Link to="/donate">Doe</Link></li>
-            <li><button className='btn'><FaUser />Login</button></li>
           </ul>
         </nav>
     </HeaderContainer>
