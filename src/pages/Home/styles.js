@@ -99,7 +99,7 @@ export const Main = styled.main`
     color: var(--primary);
   }
 
-  >p{
+  p{
     padding: 2rem 0;
     line-height: 1.4;
     font-size: var(--p-font);

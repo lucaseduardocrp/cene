@@ -18,6 +18,7 @@ const Container = styled.div`
   }
   p{
     font-size: var(--p-font);
+    padding: 0;
   }
 `
 
