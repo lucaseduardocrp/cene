@@ -51,7 +51,7 @@ export function Footer() {
         </li>
         <li><p>© 2023, Comunidade Evangélica Novo Encontro. Todos os direitos reservados.</p></li>
       </ul>
-      <img src="/Logo.svg" />
+      <a href="#home"><img src="/Logo.svg" alt='Logo Ministério Cene' /></a>
     </Container>
   );
 }

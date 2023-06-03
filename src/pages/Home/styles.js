@@ -8,8 +8,7 @@ const flex = css`
 `;
 
 export const Slide = styled.div`
-  padding: 10rem 0;
-  height: 75vh;
+  height: 90vh;
   background-color: var(--black);
   ${flex}
   flex-direction: column;
