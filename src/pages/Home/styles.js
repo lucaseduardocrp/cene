@@ -120,7 +120,7 @@ export const Main = styled.main`
 const parallax = css`
   ${flex}
   width: 100%;
-  height: 72vh;
+  height: 65vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
