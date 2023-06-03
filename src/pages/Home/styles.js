@@ -68,11 +68,6 @@ export const EncontroRadical = styled.section`
       font-size: var(--h4-font);
       color: var(--white);
     }
-
-    .buttonsGrid{
-      ${flex}
-      gap: 2rem;
-    }
   }
 
   @media (max-width: 450px){
@@ -115,7 +110,6 @@ export const Main = styled.main`
     }
   }
 `;
-
 
 const parallax = css`
   ${flex}
