@@ -16,7 +16,8 @@ const Container = styled.div`
     font-size: var(--h4-font);
     margin-top: 1rem;
   }
-  p{
+  
+ >p{
     font-size: var(--p-font);
     padding: 0;
   }
