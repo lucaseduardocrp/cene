@@ -114,20 +114,13 @@ export const Main = styled.main`
       max-width: 100%;
     }
   }
-
-  .scheduleGrid{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10rem;
-    margin-bottom: 4rem;
-  }
 `;
+
 
 const parallax = css`
   ${flex}
   width: 100%;
-  height: 65vh;
+  height: 72vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -135,29 +128,35 @@ const parallax = css`
   h2{
     color: var(--white);
   }
-
+  
   p{
     color: var(--white);
   }
-`;
+  `;
 
 export const ParallaxImage = styled.div`
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/LeituraIMG.jpg);
   ${parallax}
-`;
+  `;
 
 export const ParallaxImage2 = styled.div`
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/ContribuiçaoBG.jpg);
   ${parallax}
-
+  
   h2{
     color: var(--primary);
   }
-`;
+  `;
 
 export const HeartIcon = styled(AiFillHeart)`
   width: 6rem;
   height: 6rem;
   fill: var(--primary);
-`;
+  `;
 
+export const ScheduleGrid = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10rem;
+`;

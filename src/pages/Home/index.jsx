@@ -1,6 +1,6 @@
 import ScheduleCard from '../../components/ScheduleCards';
 import { scheduleInfo } from '../../components/modules/ScheduleInfos';
-import { Main, Slide, Container, EncontroRadical, ParallaxImage, ParallaxImage2, HeartIcon } from './styles';
+import { Main, Slide, Container, EncontroRadical, ParallaxImage, ParallaxImage2, HeartIcon, ScheduleGrid } from './styles';
 import { Link } from 'react-router-dom';
 
 export default function Home(){
@@ -43,9 +43,9 @@ export default function Home(){
 
       <Container>
         <h2>Programação</h2>
-        <div className="scheduleGrid">
+        <ScheduleGrid>
           {scheduleInfo.map((info, id) => <ScheduleCard src={info.image} alt={info.altImage} day={info.day} hours={info.hours} key={id} />)}
-        </div>
+        </ScheduleGrid>
       </Container>
 
       <ParallaxImage2>
