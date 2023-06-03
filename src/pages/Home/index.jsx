@@ -11,17 +11,17 @@ export default function Home(){
         <img src="/arrowDown.svg" alt="Arrow Down"/>
       </Slide>
       <EncontroRadical>
-        <div className="radical-subscribe">
+        <div className="radical-subscribe" data-aos="fade-right" data-aos-duration="700">
           <h3>UM NOVO ENCONTRO ME FAZ <br /> <span>AMAR COM O AMOR DE JESUS</span></h3>
           <h4>Deus te espera para um novo encontro</h4>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSejtzFSdYQoRthkYjL_7IIRRYvRhfft2_EUDx5iormssRS9dg/viewform?fbzx=-4655413755678008778" 
           target='_blank' rel='noreferrer' className='btn btn2'>INSCREVA-SE!</a>
         </div>
-        <img src="/radicalLogo.png" alt="Logo Encontro Radical" />
+        <img src="/radicalLogo.png" alt="Logo Encontro Radical" data-aos="zoom-out-down" data-aos-duration="700" />
        
       </EncontroRadical>
 
-      <section className='about' id='about'>
+      <section className='about' id='about' data-aos="zoom-out-down" data-aos-duration="700">
         <h2>Sobre nós</h2>
         <p>Nossa missão é estabelecer a cultura dos céus por onde formos. Temos como propósito amar a Deus acima de todas as coisas e ao próximo como a nós mesmos. <br /> 
         Cremos na mudança social e cultural, quando um só povo em unidade se move em busca de manifestar e revelar a Glória de Deus Pai em todas as esferas da sociedade, <br /> 
@@ -40,7 +40,7 @@ export default function Home(){
 
       <Container>
         <h2>Programação</h2>
-        <ScheduleGrid>
+        <ScheduleGrid data-aos="zoom-out-down" data-aos-duration="700">
           {scheduleInfo.map((info, id) => <ScheduleCard src={info.image} alt={info.altImage} day={info.day} hours={info.hours} key={id} />)}
         </ScheduleGrid>
       </Container>
