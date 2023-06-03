@@ -1,3 +1,5 @@
+import ScheduleCard from '../../components/ScheduleCards';
+import { scheduleInfo } from '../../components/modules/ScheduleInfos';
 import { Main, Slide, Container, EncontroRadical, ParallaxImage, ParallaxImage2, HeartIcon } from './styles';
 import { Link } from 'react-router-dom';
 
@@ -11,7 +13,12 @@ export default function Home(){
       <EncontroRadical>
         <div className="radical-subscribe">
           <h3>UM NOVO ENCONTRO ME FAZ <br /> <span>AMAR COM O AMOR DE JESUS</span></h3>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSejtzFSdYQoRthkYjL_7IIRRYvRhfft2_EUDx5iormssRS9dg/viewform?fbzx=-4655413755678008778" className='btn btn2'>INSCREVA-SE!</a>
+          <h4>INSCREVA-SE AGORA PARA:</h4>
+          <div className="buttonsGrid">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdzeYzoKDswpxU3Ey-2ubJuEfGvgiQgGY1JvO9I_rXerjuh1w/viewform" target='_blank' rel='noreferrer' className='btn btn2'>EQUIPANTE</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSejtzFSdYQoRthkYjL_7IIRRYvRhfft2_EUDx5iormssRS9dg/viewform?fbzx=-4655413755678008778" 
+              target='_blank' rel='noreferrer' className='btn btn2'>ACAMPANTE</a>
+          </div>
         </div>
         <img src="/radicalLogo.png" alt="Logo Encontro Radical" />
        
@@ -36,10 +43,8 @@ export default function Home(){
 
       <Container>
         <h2>Programação</h2>
-        <div className='scheduleBox'>
-          <img src="/BannerCultoDomingo.jpg" alt="Culto de louvor e adoração aos domingos" />
-          <img src="/BannerCultoQuinta.jpg" alt="Culto da vitória as quintas-feiras" />
-          <img src="/BannerCultoDomingo.jpg" alt="Escola bíblica e dominical aos domingos de manhã" />
+        <div className="scheduleGrid">
+          {scheduleInfo.map((info, id) => <ScheduleCard src={info.image} alt={info.altImage} day={info.day} hours={info.hours} key={id} />)}
         </div>
       </Container>
 

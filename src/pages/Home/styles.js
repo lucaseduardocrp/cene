@@ -58,11 +58,20 @@ export const EncontroRadical = styled.section`
   .radical-subscribe{
     ${flex}
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 
     h3{
       font-size: var(--h3-font);
       color: var(--white);
+    }
+    h4{
+      font-size: var(--h4-font);
+      color: var(--white);
+    }
+
+    .buttonsGrid{
+      ${flex}
+      gap: 2rem;
     }
   }
 
@@ -90,7 +99,7 @@ export const Main = styled.main`
     color: var(--primary);
   }
 
-  p{
+  >p{
     padding: 2rem 0;
     line-height: 1.4;
     font-size: var(--p-font);
@@ -106,17 +115,12 @@ export const Main = styled.main`
     }
   }
 
-  .scheduleBox{
+  .scheduleGrid{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 6rem;
+    gap: 10rem;
     margin-bottom: 4rem;
-    
-    img{
-      width: 30rem;
-      border-radius: 2rem;
-    }
   }
 `;
 
