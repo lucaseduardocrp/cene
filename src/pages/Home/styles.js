@@ -8,12 +8,39 @@ const flex = css`
 `;
 
 export const Slide = styled.div`
+  padding: 10rem 0;
   height: 75vh;
   background-color: var(--black);
-  background-image: url(/HomeSlide.png);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  ${flex}
+  flex-direction: column;
+  
+  img{
+    width: 60rem;
+    object-fit: cover;
+
+    @media (max-width: 1140px){
+      width: 36rem;
+    }
+  }
+
+  img:nth-child(2){
+    width: 5rem;
+    padding: 0.8rem;
+    object-fit: cover;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    animation: arrowAnimation 1s infinite;
+  }
+
+  @keyframes arrowAnimation {
+    from {
+      transform: translateY(-6px);
+    }
+    to {
+      transform: translateY(6px);
+    }
+  }
+
 `;
 
 export const EncontroRadical = styled.section`

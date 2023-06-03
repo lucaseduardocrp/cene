@@ -4,11 +4,14 @@ import { Link } from 'react-router-dom';
 export default function Home(){
   return(
     <Main>
-      <Slide id='home'/>
+      <Slide id='home'>
+        <img src="/HomeSlide.svg" alt="Seja Bem Vindo" />
+        <img src="/arrowDown.svg" alt="Arrow Down"/>
+      </Slide>
       <EncontroRadical>
         <div className="radical-subscribe">
           <h3>UM NOVO ENCONTRO ME FAZ <br /> <span>AMAR COM O AMOR DE JESUS</span></h3>
-          <a href="" className='btn btn2'>INSCREVA-SE!</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSejtzFSdYQoRthkYjL_7IIRRYvRhfft2_EUDx5iormssRS9dg/viewform?fbzx=-4655413755678008778" className='btn btn2'>INSCREVA-SE!</a>
         </div>
         <img src="/radicalLogo.png" alt="Logo Encontro Radical" />
        

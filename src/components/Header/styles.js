@@ -5,6 +5,7 @@ export const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
   background: var(--black);
+  z-index: 1000;
 
   nav, .navlinks, .socialMedia{
     display: flex;
