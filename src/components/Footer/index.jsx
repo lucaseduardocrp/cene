@@ -2,7 +2,7 @@ import { ContactIcon, LocationIcon, PhoneIcon } from '../Icons';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 36%;
+  height: auto;
   padding: 5rem 2rem;
   background: var(--black);
   display: flex;

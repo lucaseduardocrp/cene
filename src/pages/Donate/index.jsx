@@ -12,7 +12,6 @@ const Container = styled.section`
   flex-direction: column;
   gap: 1rem;
   width: 100%;
-  height: 100vh;
   text-align: center;
   background: url(https://uploads-ssl.webflow.com/61679982311ac4e10a284921/61679982311ac45b8d284967_Grain_Latest.png);
 
