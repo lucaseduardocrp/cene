@@ -29,7 +29,7 @@ const Container = styled.div`
 // eslint-disable-next-line react/prop-types
 export default function ScheduleCard({day, hours, src, alt}) {
   return (
-    <Container>
+    <Container data-aos="zoom-in" data-aos-duration="1000">
       <img src={src} alt={alt} />
       <div className="scheduleText">
         <h4>{day}</h4>
