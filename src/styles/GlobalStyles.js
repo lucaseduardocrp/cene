@@ -13,17 +13,12 @@ export default createGlobalStyle`
   html{
     min-height: 100%;
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
   }
-
+  
   body{
+    overflow-x: hidden;
     padding-top: 7rem;
-  }
-
-  *, input{
-    border: 0;
-    background: none;
   }
 
   section{
