@@ -43,7 +43,7 @@ export default function Content(){
       <h2>Material de Estudo</h2>
       <div className="contentBox">
         <img src="/RevistaEBD.png" alt="Pdf da revista utilizada na nossa Escola Bíblica Dominical" />
-        <a href="https://drive.google.com/file/d/1SMG6yXVHvZtq17FTo5tQYOpqWEwk4v-U/view?usp=sharing" className="link">Baixar PDF</a>
+        <a href="https://drive.google.com/file/d/1SMG6yXVHvZtq17FTo5tQYOpqWEwk4v-U/view?usp=sharing" target='_blank' rel='noreferrer' className="link">Baixar PDF</a>
       </div>
     </Container>
   )
