@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: auto;
-  padding: 5rem 2rem;
+  padding: 4rem 2rem;
   background: var(--black);
   display: flex;
   justify-content: space-around;

@@ -11,13 +11,13 @@ export default function Home(){
         <img src="/arrowDown.svg" alt="Arrow Down"/>
       </Slide>
       <EncontroRadical>
-        <div className="radical-subscribe" data-aos="zoom-out-right" data-aos-duration="700">
+        <div className="radical-subscribe" data-aos="zoom-in" data-aos-duration="700">
           <h3>UM NOVO ENCONTRO ME FAZ <br /> <span>AMAR COM O AMOR DE JESUS</span></h3>
           <h4>Deus te espera para um novo encontro</h4>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSejtzFSdYQoRthkYjL_7IIRRYvRhfft2_EUDx5iormssRS9dg/viewform?fbzx=-4655413755678008778" 
           target='_blank' rel='noreferrer' className='btn btn2'>INSCREVA-SE!</a>
         </div>
-        <img src="/radicalLogo.png" alt="Logo Encontro Radical" data-aos="zoom-out-left" data-aos-duration="700"/>
+        <img src="/radicalLogo.png" alt="Logo Encontro Radical" data-aos="zoom-in" data-aos-duration="700"/>
        
       </EncontroRadical>
 
