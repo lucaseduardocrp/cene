@@ -23,6 +23,7 @@ export const Slide = styled.div`
   }
 
   img:nth-child(2){
+    margin-left: 0.4rem;
     width: 10rem;
     object-fit: cover;
   }
