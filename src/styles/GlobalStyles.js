@@ -39,7 +39,6 @@ export default createGlobalStyle`
     --grey: #929292;
     --white: #ffffff;
 
-    --h1-font: 16rem;
     --h2-font: 6rem;
     --h3-font: 3.4rem;
     --h4-font: 2.4rem;
@@ -112,13 +111,13 @@ export default createGlobalStyle`
   @media (max-width: 768px){
     :root{
       --h2-font: 4rem;
-      --h3-font: 3rem;
-      --h4-font: 2.4rem;
+      --h3-font: 2.8rem;
+      --h4-font: 2.2rem;
       --p-font: 1.6rem;
       --sm-font: 1.4rem;
     }
     section{
-      padding: 2rem 1rem;
+      padding: 5rem 1rem;
     }
   }
 `; 

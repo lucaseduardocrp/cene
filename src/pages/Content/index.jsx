@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.section`
   width: 100%;
-  height: 72vh;
+  height: 100vh;
   background: url(https://uploads-ssl.webflow.com/61679982311ac4e10a284921/61679982311ac45b8d284967_Grain_Latest.png);
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@ const Container = styled.section`
   }
 
   .contentBox{
-    width: 250px;
+    width: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;

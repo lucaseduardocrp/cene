@@ -8,7 +8,7 @@ export default function Home(){
     <Main>
       <Slide id='home'>
         <img src="/HomeSlide.svg" alt="Seja Bem Vindo" />
-        <img src="/arrowDown.svg" alt="Arrow Down"/>
+        <img src="/arrowDown.gif" alt="Arrow Down"/>
       </Slide>
       <EncontroRadical>
         <div className="radical-subscribe" data-aos="zoom-in" data-aos-duration="700">

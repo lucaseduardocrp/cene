@@ -23,27 +23,13 @@ export const Slide = styled.div`
   }
 
   img:nth-child(2){
-    width: 5rem;
-    padding: 0.8rem;
+    width: 10rem;
     object-fit: cover;
-    border: 1px solid var(--white);
-    border-radius: 50%;
-    animation: arrowAnimation 1s infinite;
   }
-
-  @keyframes arrowAnimation {
-    from {
-      transform: translateY(-6px);
-    }
-    to {
-      transform: translateY(6px);
-    }
-  }
-
 `;
 
 export const EncontroRadical = styled.section`
-  height: 80vh;
+  height: 90vh;
   background: var(--black);
   text-align: center;
   ${flex}
@@ -59,6 +45,7 @@ export const EncontroRadical = styled.section`
     ${flex}
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 4rem;
 
     h3{
       font-size: var(--h3-font);
@@ -114,7 +101,7 @@ export const Main = styled.main`
 const parallax = css`
   ${flex}
   width: 100%;
-  height: 65vh;
+  height: 75vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

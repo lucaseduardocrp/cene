@@ -2,8 +2,8 @@ import { styled } from "styled-components";
 
 const Container = styled.div`
   img{
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
     border-radius: 2rem;
   }
 
