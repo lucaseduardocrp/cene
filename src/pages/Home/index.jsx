@@ -46,15 +46,13 @@ export default function Home(){
       </Container>
 
       <ParallaxImage2>
-        <Container>
-            <HeartIcon />
-            <h2>Contribuição</h2>
-            <p>
-              Ser generoso é colocar o amor em ação. &quot;Mais bem-aventurado é dar do que receber&quot; (At 20.35). <br />
-              Conﬁra em quais bancos você pode depositar seus dízimos e suas ofertas.
-            </p>
-            <Link to={"/donate"} className='btn'>Contribua Aqui</Link>
-        </Container>
+        <HeartIcon />
+        <h2>Contribuição</h2>
+        <p>
+          Ser generoso é colocar o amor em ação. &quot;Mais bem-aventurado é dar do que receber&quot; (At 20.35). <br />
+          Conﬁra em quais bancos você pode depositar seus dízimos e suas ofertas.
+        </p>
+        <Link to={"/donate"} className='btn'>Contribua Aqui</Link>
       </ParallaxImage2>
     </Main>
   )

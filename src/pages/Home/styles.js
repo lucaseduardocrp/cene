@@ -123,6 +123,9 @@ export const ParallaxImage = styled.div`
 
 export const ParallaxImage2 = styled.div`
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/ContribuiçaoBG.jpg);
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1rem;
   ${parallax}
   
   h2{
