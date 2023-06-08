@@ -1,7 +1,7 @@
 <h1 align="center">Ministério CENE</h1>
 
 <h1 align="center">
-  <img src="https://drive.google.com/file/d/1lc2sT1kpfEjulBScQTk0P3BcpgQHI-gp/view">
+  <img src="https://drive.google.com/file/d/1lc2sT1kpfEjulBScQTk0P3BcpgQHI-gp/view?usp=drive_link">
 </h1>
 
 ## Tipo e Descrição
